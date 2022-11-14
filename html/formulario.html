@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de reserva</title>
+</head>
+<body>
+    <form name="Formulario" action="https://httpbin.org/get" method="get">
+        <h1>Formulario de reserva</h1>
+        <fieldset>
+            <legend>Información general</legend>
+            <label for="f_llegada">Fecha de llegada:</label><input type="date" id="f_llegada" name="f_llegada" min="01/03/2020" required autofocus><br>
+            <label for="n_noches">Número de noches</label><input type="number" id="n_noches" required min="1" placeholder="¿Cuántas noches?"><br>
+            <label for="n_adultos">Número de adultos</label><select id="n_adultos" name="n_adultos"><option value="1">1 noche</option><option selected value="2">2 noches</option><option value="3">3 noches</option><option value="4">4 noches</option></select><br>
+            <label for="t_habitacion">Tipo de habitación</label><input type="radio" id="t_habitación">Standard</input><input type="radio" id="t_habitación">Business<br></input><input type="radio" id="t_habitación">Suite</input>
+        </fieldset>
+        <fieldset>
+            <legend>Información de contacto</legend>
+            <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre" required maxlength="32" placeholder="Nombre y Apellidos"><br>
+            <label for="email">Correo electrónico</label><input type="mail" id="email"
+        </fieldset>
+    </form>
+</body>
+</html>

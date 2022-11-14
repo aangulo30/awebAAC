@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Sportmaniacs</title>
+</head>
+<body>
+    <header>
+        <p><img src="Imagenes/logo.mini.svg" width="20" alt="Logo">&nbsp;CARRERA &nbsp; CLASIFICACIONES &nbsp; INICIAR SESION</p>
+    </header>
+    <section>
+        <form action="https://httpbin.org/get" method="get">
+            <h2>Identifícate</h2>
+            <p>Déjanos tu correo electrónico para continuar con la inscripción</p>
+            <label for="mail"></label><input type="email" id="mail" name="mail" autofocus required placeholder="nombreusuario@dominio.com">
+            <p>Escribe los siguientes datos para crear una cuenta en Sportmaniacs</p>
+            <label for="Nombre"></label><input type="text" id="Nombre" name="Nombre" required placeholder="Nombre"><br>
+            <label for="Apellidos"></label><input type="text" id="Apellidos" name="Apellidos" required placeholder="Apellidos"><br>
+            <label for="Contraseña"></label><input type="password" id="Contraseña" name="Contraseña" minlength="6" required placeholder="Elige tu contraseña">
+            <p>Mínimo 6 carácteres</p>
+            <label for="lopd"></label><input type="checkbox" id="lopd" name="lopd">Acepto las <strong> condiciones y términos de servicio</strong><br>
+            <label for="Info_extra"></label><input type="checkbox" id="Info_extra" name="Info_extra">Acepto recibir información de las carreras por parte de Sportmaniacs<br>
+            <button type="submit">CREAR CUENTA</button>
+        </form>
+    </section>
+    <footer>
+        <p>&#169; 2022 Sportmaniacs &nbsp; Aviso legal &nbsp; Política de cookies &nbsp; Contacto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Español &nbsp; Català &nbsp; Euskera &nbsp; English &nbsp; Français &nbsp; Português &nbsp; Polski &nbsp; Русский</p>
+    </footer>
+</body>
+</html>
